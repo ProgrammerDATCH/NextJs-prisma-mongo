@@ -65,8 +65,6 @@ export default function Home() {
             <h2 className="text-xl font-semibold mb-2">{product.name}</h2>
             <p className="text-gray-600 mb-1">Price: ${product.price}</p>
             <p className="text-gray-600 mb-1">Shop: {product.shop.name}</p>
-            <p className="text-gray-600 mb-1">Created At: {new Date(product.createdAt).toLocaleDateString()}</p>
-            <p className="text-gray-600">Updated At: {new Date(product.updatedAt).toLocaleDateString()}</p>
           </div>
         ))}
       </div>
